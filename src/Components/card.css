@@ -1,0 +1,41 @@
+.card{
+    width: 46vw;
+    height: 600px;
+    border:3px solid black;
+    border-radius:20px;
+    margin: 20px 20px;
+    position:relative;
+    background-color:#bfacb5 ;
+}
+
+.card:hover{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.card-image img{
+    height:350px;
+    width:100%;
+}
+.card-event{
+    text-align: left;
+    margin-left: 5px;
+    font-size:20px ;
+    font-weight:bold;
+
+}
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-description{
+    margin-left:10px;
+}
+.btn-apply{
+    position:absolute;
+    right:20px;
+    bottom: 10px;
+    margin-bottom: 5px;
+}
+.venue-date{
+    margin-left:10px;
+}
